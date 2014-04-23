@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Primera Secci\IeC {\'o}n}{4}{0}{1}
+\beamer@sectionintoc {2}{Segunda Secci\IeC {\'o}n}{5}{0}{2}

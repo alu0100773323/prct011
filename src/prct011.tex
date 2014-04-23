@@ -1,0 +1,101 @@
+\documentclass{beamer}
+\usercolortheme[RGB={122,59,122}]{structure}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+
+\usetheme{Madrid}
+
+\title[Presentación con Beamer]{Número PI}
+\author[Técnicas Experimentales]{María Pérez Canino}
+\date[24-04-2014]{24 de abril de 2014}
+
+\begin{document}
+
+\begin{frame}
+
+  \includegraphics[width=0.15\textwidth]{img/ullesc.eps}
+  \hspace*{7.5cm}
+  \includegraphics[width=0.16\textwidth]{img/fmatesc.eps}
+  \titlepage
+
+  \begin{scriptsize}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{scriptsize}
+
+\end{frame} 
+
+
+\begin{frame}
+  \frametitle{Índice}  
+  \tableofcontents[pausesections]
+\end{frame}  
+
+
+\section{Primera Sección}
+
+\begin{frame}
+
+\frametitle{Primera Sección}
+
+En esta presentación veremos diferentes fórmulas que necesitan el número PI
+
+\end{frame}
+
+\section{Segunda Sección}
+
+\begin{frame}
+
+\frametitle{Segunda Sección}
+
+\begin{block}{Ejemplo}
+  \begin{itemize}
+  \item
+  Área del círculo:  $A=\pi r^2$
+  \pause
+
+  \item
+  Área del cilindro: $A=2\pi r(r+h)$
+  \pause
+
+  \item
+   Identidad de Euler: $e^{\pi i}+1=0$
+  \pause
+
+  \item
+  Volumen de la esfera: $V=(4/3)\pi r^3$
+  \pause
+
+  \item
+   Volumen de un cono: $\frac{r\pi^2h}{3}$
+  \pause
+
+  \end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+    \beamertemplatebookbibitems
+    \bibitem[Práctica 11]{practica}  
+    Práctica 11, técnicas experimentales. 
+    (2014)
+    {\small $http://campusvirtual.ull.es/1314/pluginfile.php/197661/mod_resource/content/6/GUIA.pdf$} 
+
+    \beamertemplatebookbibitems
+    \bibitem[Comandos LaTeX - Página - Fórmulas - Bibliografía]{comandos}  
+    Comandos LaTeX - Página - Fórmulas - Bibliografía 
+    (2014) 
+    {\small $http://campusvirtual.ull.es/1213m2/pluginfile.php/224421/mod_resource/content/3/TeoriaLaTeX.2.pdf$}
+
+
+  \end{thebibliography}
+\end{frame}
+
+\end{document}
